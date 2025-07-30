@@ -1,5 +1,6 @@
 package multiply_natural_numbers_1
 
+// Disclaimer: This tests are implemented by AI for educational purposes.
 import (
 	"fmt"
 	"testing"

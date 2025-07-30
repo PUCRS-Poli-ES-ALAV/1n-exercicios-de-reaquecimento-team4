@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	example "github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions"
+	"github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/example"
+	"github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/multiply_natural_numbers_2"
 )
 
 func main() {
@@ -11,4 +12,6 @@ func main() {
 
 	// Example run
 	example.Run()
+
+	multiply_natural_numbers_2.Run()
 }

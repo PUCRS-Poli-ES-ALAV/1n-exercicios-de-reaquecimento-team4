@@ -4,9 +4,13 @@ import (
 	"fmt"
 
 	"github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/example"
+	"github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/generate_sequency_5"
 	"github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/multiply_natural_numbers_1"
 	"github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/sum_half_n_numbers_3"
 )
+
+// Run tests with: go test -v ./solutions/*
+// Run main with: go run cmd/main.go
 
 func main() {
 	fmt.Println("Hello world!")
@@ -16,4 +20,5 @@ func main() {
 
 	multiply_natural_numbers_1.Run()
 	sum_half_n_numbers_3.Run()
+	generate_sequency_5.Run()
 }

@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	ackerman_sequence4 "github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/ackerman_sequence_4"
+	"github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/alphabet_sequency_9"
 	"github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/example"
 	"github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/generate_sequency_5"
 	incremental_numbers_sum2 "github.com/lucasarieta/1n-exercicios-de-reaquecimento-team4/solutions/incremental_numbers_sum_2"
@@ -27,4 +28,5 @@ func main() {
 	incremental_numbers_sum2.Run()
 	sum_and_product_7.Run()
 	ackerman_sequence4.Run()
+	alphabet_sequency_9.Run()
 }
